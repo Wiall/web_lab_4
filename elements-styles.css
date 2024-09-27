@@ -1,0 +1,67 @@
+h1{
+    font-family: 'Texta Black';
+    font-size: 44px;
+    color: #c262af;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+h2{
+    font-family: 'Texta Light';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    padding: 7% 0;
+    z-index: 3;
+    color: #000000;
+}
+h4{
+    font-family: 'Texta Black';
+    padding: 10%;
+    color: #c262af;
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    font-weight: 800;
+}
+.frame > .frame-par{
+    font-family: 'Texta Light';
+    font-size: 11px;
+    line-height: 17.4px;
+    padding: 0 3%;
+    color: #000000;
+}
+
+.footer > .footer-text{
+    font-family: 'Texta Light';
+    color: #ffffff;
+    font-size: 10px;
+    position: relative;
+    font-weight: 400;
+    top: 40%;
+}
+.header > .header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16.4%;
+    width: 67.2%;
+    height: 70%;
+}
+.frame > .frame-img{
+    display: block;
+    width: 100%;
+}
+.header-content > .logo-img{
+    position: relative;
+    top: 13.3%;
+    width: 7%;
+    height: 65%;
+    color: #c262af;
+}
+.header-content > .ico-img{
+    position: relative;
+    top: 20%;
+    width: 4%;
+    height: 40%;
+}

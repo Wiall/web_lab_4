@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    letter-spacing:0.01px;
+    word-spacing: 0.001px;
+}
+
+html, body{
+    background-color: #e1b7bf;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.flex-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container > .header{
+    height: 9%;
+}
+.flex-container > .main-page{
+    height: 90.8%;
+}
+.flex-container> .footer{
+    height: 9.2%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.main-page > .ribbon{
+    background-color: #59437a;
+    height: 25.7%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 33.7%;
+    bottom: 37%;
+}
+
+.main-page > .frame {
+    background-color: #ffffff;
+    height: 41.8%;
+    width: 18.5%;
+    text-align: center;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    position: absolute; /* Для того щоб мати змогу керувати положенням кожного елемента */
+    z-index: 2;
+    padding: 1.5%;
+}
+
+/* Перший фрейм (зміщений вліво і трохи вгору) */
+.frame-1 {
+    top: 17.8%;
+    left: 16%;
+}
+
+/* Другий фрейм (по центру) */
+.frame-2 {
+    top: 28.8%;
+    left: 39%;
+    z-index: 3;
+}
+
+/* Третій фрейм (зміщений вправо і трохи вниз) */
+.frame-3 {
+    top: 39%;
+    left: 62%;
+}
+
+@font-face {
+    font-family: 'Texta Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/TextaBlack.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Texta Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/TextaLight.woff') format('woff');
+    }
