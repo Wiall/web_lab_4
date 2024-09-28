@@ -20,7 +20,7 @@ html, body{
     height: 9%;
 }
 .flex-container > .main-page{
-    height: 90.8%;
+    height: 90vh;
 }
 .flex-container> .footer{
     height: 9.2%;
@@ -30,43 +30,48 @@ html, body{
 
 .main-page > .ribbon{
     background-color: #59437a;
-    height: 25.7%;
+    height: 23.5%;
     width: 100%;
     z-index: 1;
     position: absolute;
     top: 33.7%;
     bottom: 37%;
 }
-
-.main-page > .frame {
+.frame-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.frame-content > .frame {
     background-color: #ffffff;
-    height: 41.8%;
-    width: 18.5%;
+    height: 264px;
+    width: 138px;
     text-align: center;
     box-shadow: 0 7px 15px rgba(0,0,0,0.15);
     border-radius: 6px;
-    position: absolute; /* Для того щоб мати змогу керувати положенням кожного елемента */
+    position: relative;
     z-index: 2;
-    padding: 1.5%;
+    padding: 14.7px;
 }
 
 /* Перший фрейм (зміщений вліво і трохи вгору) */
 .frame-1 {
-    top: 17.8%;
-    left: 16%;
+    top: 3%;
+    left: 10.4%;
 }
 
 /* Другий фрейм (по центру) */
 .frame-2 {
-    top: 28.8%;
-    left: 39%;
+    top: 16.8%;
+    left: 12%;
     z-index: 3;
 }
 
 /* Третій фрейм (зміщений вправо і трохи вниз) */
 .frame-3 {
-    top: 39%;
-    left: 62%;
+    top: 29%;
+    left: 13.5%;
 }
 
 @font-face {

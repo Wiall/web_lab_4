@@ -1,0 +1,20 @@
+
+
+@media (min-height: 784px){
+    .frame-content {
+        width: 800px;
+        height: 60vh;    
+        transform: scale(1.2); /* Масштабування на 130% */
+        transform-origin: top center;    
+        z-index: 10;
+    }
+}
+@media (max-height: 784px){
+    .frame-content {
+        width: 782px;
+        height: 70vh;      
+        transform: scale(1.0);
+        transform-origin: top center;    
+        z-index: 10;    
+    }
+}
