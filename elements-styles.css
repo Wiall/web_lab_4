@@ -1,6 +1,6 @@
 h1{
-    font-family: 'Texta Black';
-    font-size: 42px;
+    font-family: 'Texta Medium';
+    font-size: 36px;
     color: #c262af;
     text-align: center;
     position: relative;
@@ -44,9 +44,6 @@ h4{
 .header > .header-content{
     display: flex;
     justify-content: space-between;
-    padding: 0 16.4%;
-    width: 67.2%;
-    height: 70%;
 }
 .frame > .frame-img{
     display: block;
@@ -55,13 +52,9 @@ h4{
 .header-content > .logo-img{
     position: relative;
     top: 13.3%;
-    width: 7%;
-    height: 65%;
     color: #c262af;
 }
 .header-content > .ico-img{
     position: relative;
     top: 20%;
-    width: 4%;
-    height: 40%;
 }

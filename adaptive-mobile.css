@@ -1,0 +1,57 @@
+@media(max-width: 500px){
+    .flex-container{
+        height: 210vh;
+    }
+    .flex-container > .main-page{
+        height: 400vh;
+    }
+    .flex-container > .header{
+        height: 70px;
+    }
+    .main-page > .page-name{
+        width: 60%;
+        margin: 10% auto 14%;
+        line-height: 30px;
+    }
+    .frame-content {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;   
+        z-index: 10;
+    }
+    .frame-content > .frame {
+        padding: 14.7px;
+        margin: 0 auto;
+        height: 264px;
+        width: 138px;
+        padding: 14.7px;
+        transform: scale(1.9);
+        transform-origin: top center;
+    }
+    .frame-1 {
+        top: 3%;
+    }
+    
+    .frame-2 {
+        top: 59%;
+    }
+    
+    .frame-3 {
+        top: 115%;
+    }
+    .header > .header-content{
+        padding: 0 10%;
+        width: 80%;
+        height: 70px;
+    }
+    .header-content > .logo-img{
+        width: 25%;
+        height: 60%;
+    }
+    .header-content > .ico-img{
+        width: 12%;
+        height: 40%;
+    }
+}

@@ -11,24 +11,17 @@ html, body{
     margin: 0;
 }
 .flex-container{
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.flex-container > .header{
-    height: 9%;
-}
-.flex-container > .main-page{
-    height: 90vh;
-}
 .flex-container> .footer{
     height: 9.2%;
     background-color: #333333;
     text-align: center;
 }
 
-.main-page > .ribbon{
+.ribbon{
     background-color: #59437a;
     height: 23.5%;
     width: 100%;
@@ -38,40 +31,31 @@ html, body{
     bottom: 37%;
 }
 .frame-content {
-    margin: 0 auto;
     display: flex;
-    flex-direction: row;
     position: relative;
 }
 .frame-content > .frame {
     background-color: #ffffff;
-    height: 264px;
-    width: 138px;
+    /* height: 264px;
+    width: 138px; */
     text-align: center;
     box-shadow: 0 7px 15px rgba(0,0,0,0.15);
     border-radius: 6px;
     position: relative;
     z-index: 2;
-    padding: 14.7px;
+    /* padding: 14.7px; */
 }
 
-/* Перший фрейм (зміщений вліво і трохи вгору) */
 .frame-1 {
-    top: 3%;
-    left: 10.4%;
-}
-
-/* Другий фрейм (по центру) */
-.frame-2 {
-    top: 16.8%;
-    left: 12%;
     z-index: 3;
 }
 
-/* Третій фрейм (зміщений вправо і трохи вниз) */
+.frame-2 {
+    z-index: 3;
+}
+
 .frame-3 {
-    top: 29%;
-    left: 13.5%;
+    z-index: 3;
 }
 
 @font-face {
@@ -85,4 +69,10 @@ html, body{
     font-style: normal;
     font-weight: normal;
     src: url('fonts/TextaLight.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Texta Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/TextaMedium.woff') format('woff');
     }
