@@ -1,9 +1,9 @@
 @media(max-width: 500px){
     .flex-container{
-        height: 210vh;
+        height: 2000px;
     }
     .flex-container > .main-page{
-        height: 400vh;
+        height: 180%;
     }
     .flex-container > .header{
         height: 70px;
