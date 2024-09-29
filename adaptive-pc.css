@@ -50,13 +50,11 @@
         left: 18%;
     }
 
-    .header-content > .logo-img{
-        width: 7%;
-        height: 65%;
-    }
-    .header-content > .ico-img{
-        width: 4%;
-        height: 40%;
+    .header-content > a > .logo-img, 
+    .header-content > a > .ico-img {
+        height: 30px;
+        cursor: pointer;
+        transition: transform 0.3s ease, filter 0.3s ease;
     }
 }
 

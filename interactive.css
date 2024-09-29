@@ -1,30 +1,19 @@
-.header-content > .logo-img{
-    cursor: pointer;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-.header-content > .logo-img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
-}
-.header-content > .ico-img{
-    cursor: pointer;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-.header-content > .ico-img:hover {
-    transform: scale(1.2);
+.header-content > a > .logo-img:hover, 
+.header-content > a > .ico-img:hover {
+    transform: scale(1.1);
     filter: brightness(1.2);
 }
 
 .frame h4 {
-    cursor: pointer; /* Зміна курсора */
-    color: #c262af; /* Основний колір тексту */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Плавний перехід кольору */
+    cursor: pointer;
+    color: #c262af;
+    transition: color 0.3s ease, background-color 0.3s ease;
     border-radius: 5px;
     padding: 10px;
 }
 
 .frame h4:hover {
-    color: white; /* Зміна кольору тексту на білий */
-    background-color: #c262af; /* Підсвічування фону */
-    border-radius: 5px; /* Додаємо округлені краї для кращого вигляду */
+    color: white;
+    background-color: #c262af;
+    border-radius: 5px;
 }
