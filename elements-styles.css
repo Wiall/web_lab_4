@@ -2,43 +2,35 @@ h1{
     font-family: 'Texta Medium';
     font-size: 36px;
     color: #c262af;
-    text-align: center;
-    position: relative;
-    margin: 0;
 }
 h2{
     font-family: 'Texta Light';
-    font-style: normal;
-    font-weight: 550;
     font-size: 14px;
+    color: #000000;    
+    font-weight: 500;
     padding: 6% 0 3%;
-    z-index: 3;
-    color: #000000;
 }
 h4{
     font-family: 'Texta Black';
-    padding: 10%;
-    color: #c262af;
     font-size: 10px;
-    text-align: center;
-    position: relative;
-    margin: 0;
+    color: #c262af;
     font-weight: 800;
+    padding: 10%;
 }
 .frame > .frame-par{
     font-family: 'Texta Light';
     font-size: 9px;
+    color: #000000;    
     line-height: 13px;
     padding: 0 2.5%;
-    color: #000000;
 }
 
 .footer > .footer-text{
     font-family: 'Texta Light';
+    font-size: 10px;    
     color: #ffffff;
-    font-size: 10px;
-    position: relative;
     font-weight: 400;
+    position: relative;
     top: 40%;
 }
 .header > .header-content{

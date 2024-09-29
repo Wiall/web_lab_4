@@ -7,60 +7,49 @@
     .flex-container > .main-page{
         height: 88vh;
     }
-    .flex-container > .header{
+    .flex-container > .header, .footer{
         height: 9%;
     }
     .header > .header-content{
         padding: 0 16.4%;
         width: 67.2%;
-        height: 70%;
+        height: 39px;
     }
-    .flex-container > .footer{
-        height: 9.2%;
-    }
+
     .main-page > .page-name{
         width: 100%;
     }
 
     .ribbon{
-        background-color: #59437a;
         height: 23.5%;
-        width: 100%;
-        z-index: 1;
-        position: absolute;
         top: 33.7%;
-        bottom: 37%;
     }
 
     .frame-content {
         max-width: 782px;
         width: 100%;
         height: 70vh;      
-        margin: 0 auto;
-        transform: scale(1.0);
-        transform-origin: top center;    
-        z-index: 10;    
+        margin: 0 auto;       
         flex-direction: row;
     }
     .frame-content > .frame {
         height: 264px;
         width: 138px;
-        padding: 14.7px;
     }
+
     .frame-1 {
         top: 3%;
         left: 15%;
     }
-    
     .frame-2 {
         top: 16.8%;
         left: 16.5%;
     }
-    
     .frame-3 {
         top: 29%;
         left: 18%;
     }
+
     .header-content > .logo-img{
         width: 7%;
         height: 65%;
@@ -81,16 +70,15 @@
     .frame-content > .frame {
         transform: scale(0.9);
     }
+
     .frame-1 {
         top: 3%;
         left: 4%;
     }
-    
     .frame-2 {
         top: 16.8%;
         left: 5%;
     }
-    
     .frame-3 {
         top: 29%;
         left: 6%;

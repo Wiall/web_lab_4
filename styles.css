@@ -1,15 +1,12 @@
 *{
     margin: 0;
-    letter-spacing:0.01px;
-    word-spacing: 0.001px;
+    text-align: center;
 }
 
 html, body{
     background-color: #e1b7bf;
-    height: 100%;
-    width: 100%;
-    margin: 0;
 }
+
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -17,9 +14,15 @@ html, body{
 
 .flex-container> .footer{
     background-color: #333333;
-    text-align: center;
 }
 
+.ribbon{
+    background-color: #59437a;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 37%;
+}
 
 .frame-content {
     display: flex;
@@ -27,25 +30,10 @@ html, body{
 }
 .frame-content > .frame {
     background-color: #ffffff;
-    /* height: 264px;
-    width: 138px; */
-    text-align: center;
     box-shadow: 0 7px 15px rgba(0,0,0,0.15);
     border-radius: 6px;
     position: relative;
-    z-index: 2;
-    /* padding: 14.7px; */
-}
-
-.frame-1 {
-    z-index: 3;
-}
-
-.frame-2 {
-    z-index: 3;
-}
-
-.frame-3 {
+    padding: 14.7px;
     z-index: 3;
 }
 
