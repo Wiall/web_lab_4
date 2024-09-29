@@ -15,9 +15,23 @@
         width: 67.2%;
         height: 70%;
     }
+    .flex-container > .footer{
+        height: 9.2%;
+    }
     .main-page > .page-name{
         width: 100%;
     }
+
+    .ribbon{
+        background-color: #59437a;
+        height: 23.5%;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        top: 33.7%;
+        bottom: 37%;
+    }
+
     .frame-content {
         max-width: 782px;
         width: 100%;
